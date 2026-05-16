@@ -50,9 +50,9 @@ export default function LandingPage() {
               asChild
               size="lg"
               variant="outline"
-              className="text-lg px-8 h-14 rounded-2xl font-semibold border-2"
+              className="text-lg px-8 h-14 rounded-2xl font-semibold border-2 border-rose-200 text-rose-500 hover:bg-rose-50"
             >
-              <Link href="#features">Learn More</Link>
+              <Link href="/demo">Try Demo 🐾</Link>
             </Button>
           </div>
 
