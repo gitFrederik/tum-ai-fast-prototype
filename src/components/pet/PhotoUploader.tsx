@@ -33,7 +33,7 @@ export function PhotoUploader({ photos, onChange, maxPhotos = 6 }: PhotoUploader
         const sigRes = await fetch("/api/upload", {
           method: "POST",
           headers: { "Content-Type": "application/json" },
-          body: JSON.stringify({ folder: "pawmatch/pets" }),
+          body: JSON.stringify({ folder: "pawnder/pets" }),
         });
 
         if (!sigRes.ok) throw new Error("Failed to get upload signature");
@@ -45,7 +45,7 @@ export function PhotoUploader({ photos, onChange, maxPhotos = 6 }: PhotoUploader
         formData.append("signature", signature);
         formData.append("timestamp", timestamp.toString());
         formData.append("api_key", apiKey);
-        formData.append("folder", "pawmatch/pets");
+        formData.append("folder", "pawnder/pets");
         formData.append("transformation", "f_auto,q_auto,w_800,h_800,c_fill,g_auto");
 
         const uploadRes = await fetch(

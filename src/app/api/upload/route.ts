@@ -9,7 +9,7 @@ export async function POST(req: NextRequest) {
   }
 
   const body = await req.json();
-  const folder = body.folder ?? "pawmatch/pets";
+  const folder = body.folder ?? "pawnder/pets";
   const transformation = "f_auto,q_auto,w_800,h_800,c_fill,g_auto";
 
   const result = generateSignature({ folder, transformation });

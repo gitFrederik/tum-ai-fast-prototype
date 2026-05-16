@@ -20,7 +20,7 @@ export const { handlers, auth, signIn, signOut } = NextAuth({
           pass: process.env.EMAIL_SERVER_PASSWORD ?? "",
         },
       },
-      from: process.env.EMAIL_FROM ?? "noreply@pawmatch.app",
+      from: process.env.EMAIL_FROM ?? "noreply@pawnder.app",
     }),
   ],
   session: {

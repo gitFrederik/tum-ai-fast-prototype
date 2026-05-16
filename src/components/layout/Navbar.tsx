@@ -20,7 +20,7 @@ export function Navbar() {
     <nav className="hidden md:flex fixed top-0 left-0 right-0 z-50 h-16 bg-white border-b border-gray-100 items-center justify-between px-6">
       <Link href="/" className="flex items-center gap-2 font-bold text-xl text-rose-500">
         <PawPrint className="w-6 h-6" />
-        PawMatch
+        Pawnder
       </Link>
 
       {session ? (

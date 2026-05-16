@@ -17,11 +17,11 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "PawMatch — Find Your Pet's Perfect Match",
+  title: "Pawnder — Find Your Pet's Perfect Match",
   description:
     "Swipe. Match. Play. The Tinder-style app for pet owners to find playmates, breeding partners, and adoption matches.",
   openGraph: {
-    title: "PawMatch",
+    title: "Pawnder",
     description: "Find your pet's perfect match",
     type: "website",
   },

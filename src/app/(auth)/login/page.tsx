@@ -38,7 +38,7 @@ export default function LoginPage() {
         {/* Logo */}
         <div className="text-center mb-8">
           <Link href="/" className="inline-flex items-center gap-2 text-2xl font-black text-rose-500">
-            <PawPrint className="w-7 h-7" /> PawMatch
+            <PawPrint className="w-7 h-7" /> Pawnder
           </Link>
           <p className="text-gray-500 mt-2 text-sm">Find your pet&apos;s perfect match</p>
         </div>

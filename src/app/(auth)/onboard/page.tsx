@@ -9,7 +9,7 @@ export default function OnboardPage() {
       <div className="max-w-lg mx-auto">
         <div className="text-center mb-8">
           <div className="flex items-center justify-center gap-2 text-2xl font-black text-rose-500 mb-2">
-            <PawPrint className="w-7 h-7" /> PawMatch
+            <PawPrint className="w-7 h-7" /> Pawnder
           </div>
           <h1 className="text-2xl font-bold text-gray-900">Add your first pet</h1>
           <p className="text-gray-500 text-sm mt-1">
