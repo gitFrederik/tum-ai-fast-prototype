@@ -1,0 +1,16 @@
+{
+  "buildCommand": "prisma generate && next build",
+  "framework": "nextjs",
+  "regions": ["fra1"],
+  "env": {
+    "DATABASE_URL": "@pawmatch-db-url",
+    "NEXTAUTH_SECRET": "@pawmatch-nextauth-secret",
+    "AUTH_GOOGLE_ID": "@pawmatch-google-id",
+    "AUTH_GOOGLE_SECRET": "@pawmatch-google-secret",
+    "CLOUDINARY_API_SECRET": "@cloudinary-api-secret",
+    "PUSHER_SECRET": "@pusher-secret",
+    "STRIPE_SECRET_KEY": "@stripe-secret-key",
+    "STRIPE_WEBHOOK_SECRET": "@stripe-webhook-secret",
+    "UPSTASH_REDIS_REST_TOKEN": "@upstash-redis-token"
+  }
+}
